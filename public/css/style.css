@@ -1,0 +1,681 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header */
+.header {
+  background-color: rgb(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.menu-logo {
+  display: flex;
+  margin-left: 80px;
+}
+
+.logo-item {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 16px;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo-item:hover {
+  color: #ffc107;
+}
+
+.menu-tengah {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.tengah-item {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 16px;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.tengah-item:hover {
+  color: #ffc107;
+}
+
+.menu-pisah {
+  display: flex;
+  align-items: center;
+  margin-left: 900px;
+}
+
+.pisah-item {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 16px;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.pisah-item:hover {
+  color: #ffc107;
+}
+
+/* banner */
+
+.banner-title {
+  color: white;
+  font-size: 80px;
+  letter-spacing: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-subtitle {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/main-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.banner-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+
+.btn-1 {
+  height: 65px;
+  width: 250px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ffc107;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+.the-story-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  bottom: 40px;
+}
+
+.kecil {
+  width: 40px;
+  position: absolute;
+  bottom: 10px;
+}
+
+/* page 2 */
+.the-games {
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/the-games-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.the-games-title {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 200px;
+  left: 270px;
+}
+
+.the-games-subtitle {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 230px;
+  left: 270px;
+}
+
+.the-games-container {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.rockpaper {
+  width: 43%;
+  position: absolute;
+  left: 615px;
+  top: 250px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  left: 270px;
+  top: 580px;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  left: 320px;
+  top: 413px;
+}
+
+.carousel-control-next {
+  position: absolute;
+  right: 30px;
+  top: 420px;
+}
+
+/* page 3 */
+.the-features {
+  background-image: url("assets/features.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.the-features-title {
+  color: white;
+  font-size: 30px;
+}
+
+.the-features-subtitle {
+  color: white;
+  font-size: 30px;
+}
+
+.the-features-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.the-features-title {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 190px;
+  right: 320px;
+}
+
+.the-features-subtitle {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 220px;
+  right: 250px;
+}
+
+.the-features-top-stepper {
+  color: #ffc107;
+  font-size: 20px;
+  position: absolute;
+  top: 400px;
+  right: 290px;
+}
+
+.the-features-stepper-p {
+  color: white;
+  font-size: 12px;
+  max-width: 250px;
+  position: absolute;
+  top: 435px;
+  right: 230px;
+  word-spacing: 5px;
+}
+
+.stepper {
+  position: absolute;
+  width: 1.2%;
+  right: 520px;
+  top: 405px;
+}
+
+.the-features-stepper-suit {
+  color: #ffc107;
+  font-size: 20px;
+  position: absolute;
+  right: 380px;
+  top: 535px;
+}
+
+.the-features-stepper-tbd {
+  color: #ffc107;
+  font-size: 20px;
+  position: absolute;
+  right: 440px;
+  top: 590px;
+}
+/* page 4 */
+.system {
+  background-image: url("assets/requirements.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.system-container {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.my-computer {
+  color: white;
+  position: absolute;
+  font-size: 12px;
+  word-spacing: 6px;
+  top: 60px;
+}
+
+.system-title {
+  color: white;
+  font-size: 60px;
+  max-width: 50px;
+  position: absolute;
+  left: 5px;
+  top: 200px;
+}
+
+.table {
+  position: absolute;
+  width: 40%;
+  left: 10px;
+  top: 360px;
+}
+
+.os {
+  color: #ffc107;
+  font-size: 30px;
+  position: absolute;
+  left: 30px;
+  top: 370px;
+}
+
+.windows {
+  color: white;
+  font-size: 16px;
+  max-width: 250px;
+  position: absolute;
+  top: 415px;
+  left: 30px;
+}
+
+.processor {
+  color: #ffc107;
+  font-size: 30px;
+  position: absolute;
+  left: 290px;
+  top: 370px;
+}
+
+.intel {
+  color: white;
+  font-size: 16px;
+  max-width: 250px;
+  position: absolute;
+  top: 415px;
+  left: 290px;
+}
+
+.memory {
+  color: #ffc107;
+  font-size: 30px;
+  position: absolute;
+  left: 30px;
+  top: 510px;
+}
+
+.ram {
+  color: white;
+  font-size: 16px;
+  max-width: 250px;
+  position: absolute;
+  top: 550px;
+  left: 33px;
+}
+
+.storage {
+  color: #ffc107;
+  font-size: 30px;
+  position: absolute;
+  left: 290px;
+  top: 510px;
+}
+
+.space {
+  color: white;
+  font-size: 16px;
+  max-width: 250px;
+  position: absolute;
+  top: 550px;
+  left: 290px;
+}
+
+.graphics {
+  color: #ffc107;
+  font-size: 30px;
+  position: absolute;
+  left: 30px;
+  top: 650px;
+}
+
+.nvidia {
+  color: white;
+  font-size: 16px;
+  max-width: 350px;
+  position: absolute;
+  top: 700px;
+  left: 30px;
+}
+
+/* page 5 */
+
+.top-scores {
+  background-image: url("assets/blackpaper2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.top-scores-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 8px;
+}
+
+.top-scores-title {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 380px;
+  left: 10px;
+}
+
+.top-scores-subtitle {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 460px;
+  left: 20px;
+  max-width: 300px;
+}
+
+.btn-2 {
+  height: 65px;
+  width: 250px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ffc107;
+  color: black;
+  position: absolute;
+  left: 20px;
+  top: 530px;
+}
+
+.testimonial-1 {
+  position: absolute;
+  width: 30%;
+  right: 100px;
+  top: 180px;
+}
+
+.foto-evan {
+  width: 80px;
+  clip-path: circle();
+  position: absolute;
+  right: 380px;
+  top: 180px;
+}
+
+.evan {
+  color: #ffc107;
+  position: absolute;
+  font-size: 20px;
+  top: 210px;
+  right: 265px;
+}
+
+.gamer {
+  color: grey;
+  position: absolute;
+  font-size: 14px;
+  top: 240px;
+  right: 300px;
+}
+
+.highlights {
+  color: white;
+  position: absolute;
+  font-size: 16px;
+  top: 300px;
+  right: 160px;
+}
+
+.date-evan {
+  color: grey;
+  position: absolute;
+  font-size: 12px;
+  top: 335px;
+  right: 385px;
+}
+
+.testimonial-2 {
+  position: absolute;
+  width: 30%;
+  right: 500px;
+  top: 390px;
+}
+
+.foto-jada {
+  width: 130px;
+  clip-path: circle();
+  position: absolute;
+  right: 760px;
+  top: 410px;
+}
+
+.jada {
+  color: #ffc107;
+  position: absolute;
+  font-size: 20px;
+  top: 430px;
+  right: 650px;
+}
+
+.nerd {
+  color: grey;
+  position: absolute;
+  font-size: 14px;
+  top: 460px;
+  right: 680px;
+}
+
+.survival {
+  color: white;
+  position: absolute;
+  font-size: 16px;
+  top: 510px;
+  right: 520px;
+  max-width: 350px;
+}
+
+.date-jada {
+  color: grey;
+  position: absolute;
+  font-size: 12px;
+  top: 560px;
+  right: 790px;
+}
+
+.testimonial-3 {
+  position: absolute;
+  width: 30%;
+  right: 100px;
+  top: 600px;
+}
+
+.foto-aaron {
+  width: 80px;
+  clip-path: circle();
+  position: absolute;
+  right: 380px;
+  top: 610px;
+}
+
+.aaron {
+  color: #ffc107;
+  position: absolute;
+  font-size: 20px;
+  top: 640px;
+  right: 210px;
+}
+
+.uproxx {
+  color: grey;
+  position: absolute;
+  font-size: 14px;
+  top: 670px;
+  right: 310px;
+}
+
+.snoop {
+  color: white;
+  position: absolute;
+  font-size: 16px;
+  top: 720px;
+  right: 120px;
+  max-width: 350px;
+}
+
+.date-aaron {
+  color: grey;
+  position: absolute;
+  font-size: 12px;
+  top: 770px;
+  right: 350px;
+}
+
+/* page 6 */
+.newsletter {
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/blackpaper2\ copy.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.newsletter-container {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 8px;
+}
+
+.newsletter-title {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 200px;
+  right: 575px;
+  word-spacing: 5px;
+  max-width: 200px;
+  gap: 1px;
+}
+
+.newsletter-subtitle {
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  top: 260px;
+  right: 680px;
+  letter-spacing: 5px;
+  max-width: 100px;
+}
+
+.newsletter-paragraph {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 450px;
+  right: 70px;
+  max-width: 700px;
+}
+
+.btn-3 {
+  height: 50px;
+  width: 250px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ffc107;
+  color: black;
+  position: absolute;
+  right: 100px;
+  top: 580px;
+}
+
+.form-label {
+  position: absolute;
+  top: 580px;
+  color: #ffc107;
+  z-index: 2;
+  right: 615px;
+}
+
+.form-control {
+  position: absolute;
+  height: 50px;
+  width: 400px;
+  margin-right: 100px;
+  top: 580px;
+  background-color: rgb(51, 51, 51);
+  border: 0;
+  padding-top: 20px;
+  right: 270px;
+  z-index: 1;
+}

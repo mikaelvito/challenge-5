@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Open Sans", sans-serif;
+  background-color: #9c835f;
+}
+
+.menu-atas {
+  display: flex;
+  align-items: center;
+}
+
+.lebih-kecil {
+  margin-top: 12px;
+  margin-left: 27px;
+}
+
+.logo-gabung {
+  margin-left: 27px;
+  margin-top: 10px;
+}
+
+.rock-paper-scissor {
+  color: #f9b23d;
+  position: absolute;
+  left: 198px;
+  top: 20px;
+  width: 410px;
+  height: 62px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 650px;
+  margin: auto;
+  row-gap: 15px;
+  margin-top: 25px;
+  padding: 15px 55px 10px;
+}
+
+.section-batu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.section-batu img {
+  display: flex;
+  margin: auto;
+  width: 128px;
+}
+/* .batunyaPlayer {
+    width: 128px;
+    height: 92px;
+    left: 340px;
+    top: 200px;
+    position: absolute; */
+
+.section-batu .batunyaPlayer:hover {
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  padding: 1px;
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.section-kertas {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  align-items: center;
+}
+
+.section-kertas img {
+  width: 115px;
+  display: flex;
+  margin: auto;
+}
+
+/* .kertasnyaPlayer {
+    position: absolute;
+    left: 346px;
+    top: 350px;
+    width: 115px;
+    height: 150px;
+} */
+
+.section-kertas .kertasnyaPlayer:hover {
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  padding: 1px;
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.section-gunting {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+/* .guntingnyaPlayer {
+    width: 134px;
+    height: 160px;
+    position:absolute;
+    top: 560px;
+    left: 335px;
+} */
+
+.section-gunting img {
+  width: 134px;
+  display: flex;
+  margin: auto;
+}
+
+.section-gunting .guntingnyaPlayer:hover {
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  padding: 1px;
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nama .player {
+  position: absolute;
+  width: 299px;
+  height: 94px;
+  left: 350px;
+  top: 100px;
+}
+
+.nama .computer {
+  position: absolute;
+  width: 299px;
+  height: 94px;
+  right: 160px;
+  top: 105px;
+}
+
+.game-control {
+  display: flex;
+  margin: auto;
+}
+
+.game-control img {
+  width: 60px;
+}
+
+.bgPlayer {
+  display: flex;
+  width: 203px;
+  height: 174px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.bgComputer {
+  display: flex;
+  width: 203px;
+  height: 174px;
+  border-radius: 10px;
+}
+
+.versus {
+  width: 271px;
+  height: 167px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 720px;
+  top: 320px;
+}
+
+.vs {
+  width: 160px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  font-size: 144px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #bd0000;
+  border-radius: 30px;
+  position: absolute;
+  left: 1%;
+  top: 30px;
+}
